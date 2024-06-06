@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "prod": "webpack --mode production", 
+    "prod": "webpack --mode production",
     "watch": "webpack --watch --mode production"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "description": "",
   "dependencies": {
     "@types/jquery": "^3.5.30",
+    "@webgpu/types": "^0.1.42",
     "css-loader": "^7.1.2",
     "jquery": "^3.7.1",
     "ts-loader": "^9.5.1",
